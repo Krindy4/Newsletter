@@ -32,7 +32,7 @@ app.post("/",function(req,res){
     ]
     };
     var jsonData= JSON.stringify(data);
-    const url = "https://us21.api.mailchimp.com/3.0/lists/7f0e97b271";
+    const url = "https://us24.api.mailchimp.com/3.0/ping/7f0e97b271";
     const options ={
         method : "POST",
         auth :"krindy:b7baf83ce6fddf6378392a7f1e770b50-us21", // replace with your mail chimp api key
@@ -71,4 +71,3 @@ app.listen(process.env.PORT || 3000,function(){
 
 // 7f0e97b271
 
-// b7baf83ce6fddf6378392a7f1e770b50-us21
